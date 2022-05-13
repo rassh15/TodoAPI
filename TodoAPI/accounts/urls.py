@@ -1,5 +1,5 @@
 from django.urls import path
-from account.views import RegisterAPI, LogoutAPI, CustomTokenObtainPairView
+from accounts.views import RegisterAPI, LogoutAPI, CustomTokenObtainPairView
 
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
