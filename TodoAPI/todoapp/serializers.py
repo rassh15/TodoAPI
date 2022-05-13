@@ -1,7 +1,7 @@
 from email.policy import default
 import imp
 from rest_framework import serializers
-from todo.models import Todo
+from todoapp.models import Todo
 
 '''
 Here we use serializers to convert the model data into 

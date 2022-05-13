@@ -1,6 +1,6 @@
 import imp
 from django.urls import path
-from todo.views import CreateTodoView, GetTodoView, TodoDetailView
+from todoapp.views import CreateTodoView, GetTodoView, TodoDetailView
 
 urlpatterns =  [
     path('create',CreateTodoView.as_view()),
